@@ -1,0 +1,22 @@
+.ServicesHPContainer{
+    @apply flex w-full justify-center items-center py-20 px-40 bg-[#292930]
+}
+.ServicesHPContent{
+    @apply flex flex-col w-full h-auto items-center
+}
+.ServicesHPHeading{
+    @apply flex flex-row w-full h-auto items-center
+}
+.ServicesHPIcon{
+    @apply w-16 h-16 mr-8
+}
+.ServicesHPHeadingMain{
+    @apply flex flex-col w-full h-auto items-center
+}
+.ServicesHPHeadingMain div{
+    @apply flex flex-row w-full h-auto items-center justify-between
+}
+.ServicesHPHeadingTitle{
+    font-family: 'Nunito';
+    @apply text-white  font-bold text-4xl mt-2 text-start w-[40%]
+}

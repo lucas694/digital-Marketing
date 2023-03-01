@@ -1,0 +1,12 @@
+.BtnBase{
+    @apply border rounded-md px-8 py-3.5 text-sm font-medium
+    w-full h-auto
+    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105
+    md:w-auto
+}
+.BtnBlackPrimary{
+    @apply text-white bg-[#292930] border-[#292930]
+}
+.BtnWhitePrimary{
+    @apply text-[#292930] bg-white border-black
+}

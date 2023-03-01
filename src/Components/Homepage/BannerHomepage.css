@@ -1,0 +1,48 @@
+.BannerHomepageContainer{
+    background-image: url("../../Assets/Homepage/BgBannerHp.png");
+    @apply flex flex-row w-full h-auto justify-center items-center
+    bg-no-repeat bg-bottom bg-contain
+    md:bg-right md:bg-cover
+}
+.BannerHomepageContent{
+    @apply flex flex-col h-auto justify-center items-center py-10 w-full px-6
+    md:w-[95%] md:flex-row md:px-0
+    lg:md:w-[90%]
+    xl:md:w-[95%]
+    2xl:md:w-[94%]
+}
+
+.BannerHpLeft{
+    @apply flex flex-col w-full h-auto
+    md:w-[50%]
+    2xl:w-[40%]
+}
+.BannerHpRight{
+    @apply flex flex-col h-auto justify-center items-center w-full mt-10
+    md:w-[50%] md:mt-0
+    2xl:w-[60%]
+}
+.BannerHpTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-4xl mt-6 text-center
+    sm:text-5xl
+    md:text-start md:text-4xl
+    lg:text-5xl
+    xl:text-6xl
+    2xl:text-7xl
+}
+.BannerHpTitle span{
+    @apply text-[#5956E8]
+}
+.BannerHpDesc{
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-medium text-sm mt-6 w-full text-center
+    md:text-base md:text-start md:w-[90%]
+    sm:text-base
+    md:text-sm
+    xl:text-base
+}
+
+.BannerHpRightImg{
+    @apply flex flex-row w-[100%] h-auto justify-center items-center
+}
