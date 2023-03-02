@@ -1,0 +1,24 @@
+.CardServicesContainer{
+    @apply flex flex-col items-center justify-center h-auto bg-amber-50 w-72 py-9 px-8 mt-14
+    bg-gradient-to-t from-[#2A2A31] to-[#36363E] rounded-3xl border border-[#424245]
+}
+.CardServicesImgControl{
+    @apply flex flex-row justify-start w-full
+}
+.CardServicesImgControl section{
+    @apply flex flex-row items-center justify-center w-auto h-auto rounded-full bg-[#292930] p-7
+}
+.CardServicesImg{
+    @apply w-16 h-16
+}
+.CardServicesInf{
+    @apply flex flex-col justify-center h-auto w-full
+}
+.CardsServicesTitle{
+    font-family: 'Nunito';
+    @apply text-white  font-bold text-xl mt-4 text-start
+}
+.CardsServicesDesc{
+    font-family: 'Noto Sans';
+    @apply text-[#D0D0D0] font-medium text-sm mt-3 w-full text-start
+}

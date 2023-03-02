@@ -1,6 +1,6 @@
 .BtnBase{
     @apply border rounded-md px-8 py-3.5 text-sm font-medium
-    w-full h-auto
+    w-full h-auto flex flex-row items-center justify-center
     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105
     md:w-auto
 }
@@ -9,4 +9,15 @@
 }
 .BtnWhitePrimary{
     @apply text-[#292930] bg-white border-black
+}
+
+.BtnCardServices{
+    @apply bg-[#2B2B32] w-full border-[#424245] text-[#424245] border-2
+    hover:bg-[#FFDC60]
+}
+.BtnCardServices:hover .BtnIconArrowCircle{
+    @apply fill-[#5956E8]
+}
+.BtnIconArrowCircle{
+    @apply w-5 h-5 ml-2 transition ease-in-out delay-150
 }

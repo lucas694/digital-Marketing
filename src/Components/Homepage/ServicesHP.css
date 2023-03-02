@@ -1,22 +1,38 @@
 .ServicesHPContainer{
-    @apply flex w-full justify-center items-center py-20 px-40 bg-[#292930]
+    @apply flex w-full justify-center items-center py-12 px-6 bg-[#292930]
+    md:py-20
+
 }
 .ServicesHPContent{
-    @apply flex flex-col w-full h-auto items-center
+    @apply flex flex-col h-auto items-center w-full justify-center
+    md:w-[90%]
+    xl:w-[70%]
+    2xl:w-[60%]
 }
 .ServicesHPHeading{
-    @apply flex flex-row w-full h-auto items-center
+    @apply flex flex-col w-full h-auto items-center
+    md:flex-row
 }
 .ServicesHPIcon{
-    @apply w-16 h-16 mr-8
+    @apply w-16 h-16 mr-8 mb-4
+    md:mb-0
 }
 .ServicesHPHeadingMain{
     @apply flex flex-col w-full h-auto items-center
 }
 .ServicesHPHeadingMain div{
-    @apply flex flex-row w-full h-auto items-center justify-between
+    @apply flex flex-col w-full h-auto items-center justify-between space-y-4
+    md:flex-row md:space-y-0
 }
 .ServicesHPHeadingTitle{
     font-family: 'Nunito';
-    @apply text-white  font-bold text-4xl mt-2 text-start w-[40%]
+    @apply text-white  font-bold text-3xl mt-4 text-center w-full
+    md:mt-2 md:w-[70%]  md:text-start
+    xl:md:text-4xl
+}
+.ServicesHPCardsContent{
+    @apply flex flex-row w-full h-auto items-center justify-around mt-8
+    flex-wrap
+    md:justify-around
+    2xl:justify-between
 }
