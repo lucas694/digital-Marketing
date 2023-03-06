@@ -17,7 +17,7 @@ const CardServices = (props) => {
             <div className={"mt-4 w-full"}>
               <BtnBase text={"Read More"}
                        type={"BtnCardServices"}
-                       icon={<IoIosArrowDroprightCircle className={"BtnIconArrowCircle"}/>}
+                       icon={<IoIosArrowDroprightCircle className={"BtnIconArrowCircleCard"}/>}
               />
             </div>
           </div>

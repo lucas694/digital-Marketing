@@ -1,0 +1,57 @@
+.ProccessHPContainer{
+    @apply flex flex-col items-center justify-center w-full
+
+}
+.ProccessIcon{
+    @apply w-16 h-16 mb-6
+}
+
+.ProccessHPTitle{
+    @apply text-[#292930] font-bold text-3xl mt-4 text-center w-full
+    xl:md:text-4xl
+}
+.ProccessHPHeading{
+    @apply flex flex-col items-center justify-center w-full px-6
+    md:w-[80%] md:px-0
+}
+.ProcessContent{
+    background-image: url("../../Assets/Homepage/ProccessBg.png");
+    @apply flex flex-col items-center justify-center w-full px-6 rounded-2xl py-10
+    md:w-[80%] md:px-0
+    bg-no-repeat bg-cover bg-center
+
+}
+.ProcessSect{
+    @apply flex flex-col items-center justify-center w-full mt-20
+    md:flex-row
+}
+.ProcessSectLeft{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[40%]
+}
+.ProcessSectRight{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[40%]
+}
+
+.ProcessSectTitleEnd{
+    @apply text-[#292930] font-bold text-xl mt-4 text-center w-full
+    md:text-end
+    xl:text-3xl
+}
+.ProcessSectTextEnd{
+    @apply text-[#555555] font-semibold text-base mt-4 text-center w-full mb-10
+    md:text-end md:mb-0
+    xl:text-base
+}
+
+.ProcessSectTitle{
+    @apply text-[#292930] font-bold text-xl mt-4 text-center w-full
+    md:text-start
+    xl:text-3xl
+}
+.ProcessSectText{
+    @apply text-[#555555] font-semibold text-base mt-4 text-center w-full
+    md:text-start
+    xl:text-base
+}

@@ -1,0 +1,44 @@
+.TestimonialCardContainer{
+    @apply flex flex-col h-auto mt-8 w-full
+    lg:w-[50%]
+}
+.TestimonialCardContent{
+    @apply flex flex-col  bg-white rounded-xl shadow-lg w-full py-6 px-6
+    md:w-full md:py-8
+    lg:w-[95%]
+}
+.TestimonialCardHeading{
+    @apply flex flex-row w-full h-auto items-center justify-between mt-4
+}
+.TestimonialCardLogo{
+    @apply w-[40%]
+    md:w-auto
+    sm:w-[20%]
+}
+.TestimonialCardStar{
+    @apply w-[40%]
+    md:w-auto
+    sm:w-[20%]
+}
+.TestimonialCardText{
+    @apply text-[#555555] font-semibold text-sm w-full text-start mt-4
+    md:text-base
+}
+.TestimonialCardInfs{
+    @apply flex flex-row w-full h-auto items-center justify-start mt-6
+}
+.TestimonialCardInfs section{
+    @apply flex flex-col w-full h-auto justify-start ml-3
+}
+.TestimonialCardImg{
+    @apply w-12 h-12
+    md:w-auto md:h-auto
+}
+.TestimonialCardName{
+    @apply text-[#292930] font-semibold text-sm w-full text-start
+    md:text-base
+}
+.TestimonialCardPosition{
+    @apply text-[#555555] font-semibold text-sm w-full text-start
+    md:text-base
+}

@@ -1,8 +1,8 @@
 .BannerHomepageContainer{
     background-image: url("../../Assets/Homepage/BgBannerHp.png");
     @apply flex flex-row w-full h-auto justify-center items-center
-    bg-no-repeat bg-bottom bg-contain
-    md:bg-right md:bg-cover
+    bg-no-repeat bg-left bg-cover
+    md:bg-right
 }
 .BannerHomepageContent{
     @apply flex flex-col h-auto justify-center items-center py-10 w-full px-6

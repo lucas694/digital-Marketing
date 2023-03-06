@@ -8,6 +8,9 @@
 .SubTitleBars{
     @apply text-[#FEC90C] uppercase font-semibold text-base
 }
+.SubTitleBarsBlue{
+    @apply text-[#5956E8] uppercase font-semibold text-base
+}
 .SubTitleTextBlack{
     @apply text-[#292930] uppercase font-medium text-base tracking-widest
 }

@@ -9,6 +9,7 @@ import AdvancedAnaly from "../../Assets/Cards/Services/AdvancedAnaly.png"
 import SeoOpt from "../../Assets/Cards/Services/SeoOpt.png"
 import Funnel from "../../Assets/Cards/Services/Funnel.png"
 import Marketing from "../../Assets/Cards/Services/CondentMarketing.png"
+import {IoIosArrowDroprightCircle} from "react-icons/io";
 
 const ServicesHP = () => {
   const ServicesData = [
@@ -33,7 +34,10 @@ const ServicesHP = () => {
             </section>
             <div>
               <h1 className={"ServicesHPHeadingTitle"}>High-impact services to take your business to the next level</h1>
-              <BtnBase text={"Get Started"} type={"BtnWhitePrimary"} />
+              <BtnBase text={"Get Started"}
+                       type={"BtnWhitePrimary"}
+                       icon={<IoIosArrowDroprightCircle className={"BtnIconArrowCircle"}/>}
+              />
             </div>
           </div>
         </div>
