@@ -1,19 +1,25 @@
 .ProjectCardContainer{
-    @apply flex flex-row w-full
+    @apply flex flex-col w-full
+    md:flex-row
 }
 .ProjectCardLeft{
-    @apply flex flex-col w-1/2 justify-center items-center space-y-5
+    @apply flex flex-col w-full justify-center items-center space-y-5
+    md:w-1/2
 }
 .ProjectCardRight{
-    @apply flex flex-col w-1/2 justify-center items-center relative
+    @apply flex flex-col w-full justify-center items-center relative mt-20
+    md:w-1/2 md:mt-0
 }
 .ProjectCardRightContent{
     background: linear-gradient(316.69deg, #FFDA57 -11.19%, #FFDA57 20.41%, #5956E8 71.73%, #5956E8 110.15%);
     @apply w-[95%] h-[95%] bg-amber-400 rounded-xl p-8  flex justify-center items-center
-    max-w-[459px] max-h-[334px]
+    max-w-[459px] max-h-[334px] min-h-[334px]
 }
+
+
 .ProjectTopic{
-    @apply flex flex-col w-full bg-[#303038] py-8 px-8 rounded-xl
+    @apply flex flex-col w-full bg-[#303038] py-6 px-6 rounded-xl
+    md:py-8 md:px-8
 }
 .ProjectTopicOpen{
     @apply flex flex-col w-full bg-[#373740] py-8 px-8 rounded-xl border border-[#5E5E62]
@@ -22,16 +28,20 @@
     @apply flex flex-row w-full justify-between items-center
 }
 .ProjectTopicTitle{
-    @apply text-[#949497] font-bold text-2xl
+    @apply text-[#949497] font-bold text-xl
+    md:text-2xl
 }
 .ProjectTopicTitleOpen{
-    @apply text-[#FFFFFF] font-bold text-2xl
+    @apply text-[#FFFFFF] font-bold text-xl
+    md:text-2xl
 }
 .ProjectTopicDesc{
-    @apply text-[#D0D0D0] font-semibold text-sm mt-4 w-[80%]
+    @apply text-[#D0D0D0] font-semibold text-xs mt-4 w-[80%]
+    md:text-sm
 }
 .ProjectTopicSpan{
-    @apply text-[#FFDC60] font-bold text-sm tracking-wider
+    @apply text-[#FFDC60] font-bold text-xs tracking-wider
+    md:text-sm
 }
 .ProjectTopicBtn{
     @apply flex flex-row justify-center items-center bg-[#292930] rounded-full p-2

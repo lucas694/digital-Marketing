@@ -62,8 +62,7 @@ const ProjectCard = () => {
 
       <div className={"ProjectCardRight"}>
         <div className={"ProjectCardRightContent"}>
-          <img src={OnlineMediaTopic} alt={"Online Media Topic"} className={"ProjectCardRightImg"} />
-
+          {(OnMedia || ExpMarketing || EmailMarketing) && <img src={OnlineMediaTopic} alt={"Online Media Topic"} className={"ProjectCardRightImg"} />}
         </div>
       </div>
 

@@ -19,7 +19,7 @@ const ProjectAndCpunters = () => {
             </section>
             <div>
               <h1 className={"ProjectHeadingTitle"}>High-impact services to take your business to the next level</h1>
-              <BtnBase text={"Get Started"}
+              <BtnBase text={"More Cacestudys"}
                        type={"BtnWhitePrimary"}
                        icon={<IoIosArrowDroprightCircle className={"BtnIconArrowCircle"}/>}
               />
