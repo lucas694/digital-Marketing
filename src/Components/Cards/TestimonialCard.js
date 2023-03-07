@@ -1,7 +1,5 @@
 import "./TestimonialCard.css";
-import CompanyLogo from "../../Assets/Homepage/Company.png";
 import Start from "../../Assets/Homepage/Star.png";
-import CardImgTestimonialOne from "../../Assets/Homepage/cardTestimonial1.png";
 
 const TestimonialCard = (props ) =>{
   const {imgLogo, imgCard, name, position} = props;

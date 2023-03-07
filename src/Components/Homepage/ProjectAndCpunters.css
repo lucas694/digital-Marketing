@@ -1,0 +1,33 @@
+.ProjectAndCpuntersContainer{
+    @apply flex flex-col w-full  items-center justify-center bg-[#292930] py-20
+}
+.ProjectContent{
+    @apply flex flex-col h-auto items-center w-full justify-center px-6
+    md:w-[90%] md:px-0
+    xl:w-[70%]
+    2xl:w-[60%]
+}
+.ProjectHeading{
+    @apply flex flex-col w-full h-auto items-center
+    md:flex-row
+}
+.ProjectIconIcon{
+    @apply w-16 h-16 mr-8 mb-4
+    md:mb-0
+}
+.ProjectHeadingMain{
+    @apply flex flex-col w-full h-auto items-center
+}
+.ProjectHeadingMain div{
+    @apply flex flex-col w-full h-auto items-center justify-between space-y-4
+    md:flex-row md:space-y-0
+}
+.ProjectHeadingTitle{
+    font-family: 'Nunito';
+    @apply text-white  font-bold text-3xl mt-4 text-center w-full
+    md:mt-2 md:w-[70%]  md:text-start
+    xl:md:text-4xl
+}
+.ProjectCardSection{
+    @apply flex flex-col w-full h-auto items-center justify-center mt-20
+}

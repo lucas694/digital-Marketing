@@ -4,6 +4,7 @@ import ServicesHP from "./ServicesHP";
 import AboutHP from "./AboutHP";
 import ProccessHP from "./ProccessHP";
 import Testimonial from "./Testimonial";
+import ProjectAndCpunters from "./ProjectAndCpunters";
 
 const Homepage = () =>{
   return(
@@ -13,6 +14,7 @@ const Homepage = () =>{
       <AboutHP />
       <ProccessHP />
       <Testimonial />
+      <ProjectAndCpunters />
 
     </div>
   )
