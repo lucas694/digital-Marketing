@@ -1,0 +1,21 @@
+.PricingContainer{
+    @apply flex flex-col w-full items-center justify-center py-10 px-6
+    md:px-0
+
+}
+.PricingHeading{
+    @apply flex flex-col w-full items-center justify-center;
+}
+.PricingIcon{
+    @apply w-16 h-16 mb-6;
+}
+.PricingTitle{
+    @apply text-[#292930] font-bold text-3xl mt-4 text-center w-full
+    xl:md:text-4xl
+}
+.PricingCardsContent{
+    @apply flex flex-col w-full items-center justify-around flex-wrap mt-10
+    lg:flex-row
+    xl:w-[80%]
+    2xl:w-[60%]
+}

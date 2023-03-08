@@ -29,11 +29,8 @@ const ProjectAndCpunters = () => {
         {/**/}
         <div className={"ProjectCardSection"}>
           <ProjectCard />
-
         </div>
-
       </div>
-
-    </div>
+     </div>
   )
 };export default ProjectAndCpunters

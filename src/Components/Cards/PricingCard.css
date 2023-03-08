@@ -1,0 +1,73 @@
+.PricingCardsContainer{
+    @apply flex flex-col p-10 bg-[#F6F6F6] rounded-lg mt-8 relative
+    lg:mt-0
+    hover:bg-[#292930] transition-all duration-300 ease-in-out
+}
+.PricingCardHeading{
+    @apply flex flex-row w-full items-center  justify-center h-auto
+}
+.PricingCardIcon{
+    @apply h-11 h-11 mr-4 mt-6
+}
+.PricingCardHeading section{
+    @apply flex flex-col w-full
+
+}
+.PricingCardTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-extrabold text-xl
+}
+.PricingCardPrice{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-extrabold text-5xl
+}
+.PricingCardPrice span{
+    font-family: 'Nunito';
+    @apply text-[#555555] font-semibold text-base
+}
+
+.PricingCardUl{
+    @apply flex flex-col w-full h-auto
+}
+.PricingCardLi{
+    font-family: 'Nunito';
+    @apply text-[#555555] font-semibold text-lg mt-2
+    flex flex-row items-center
+}
+.CheckIconPricingCard{
+    @apply w-4 h-4 mr-2 fill-[#3FCD78]
+}
+.XIconPricingCard{
+    @apply w-4 h-4  mr-2 fill-[#FF5353]
+}
+.PricingCardBtn{
+    @apply rounded-md  py-3.5 text-base font-semibold w-full h-auto mt-6
+    text-white bg-[#292930]
+    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105
+}
+
+.PricingCardStats{
+    @apply bg-[#FFDC60] text-[#292930] font-semibold text-sm uppercase rounded-lg px-2 py-1.5
+    absolute top-5 right-4 hidden cursor-default
+}
+
+/*On hover card*/
+.PricingCardsContainer:hover .PricingCardBtn{
+    @apply bg-[#F6F6F6] text-[#292930]
+}
+.PricingCardsContainer:hover .PricingCardTitle{
+    @apply text-white
+}
+.PricingCardsContainer:hover .PricingCardPrice span{
+    @apply text-white
+}
+.PricingCardsContainer:hover .PricingCardPrice{
+    @apply text-white
+}
+.PricingCardsContainer:hover .PricingCardLi{
+    @apply text-white
+}
+.PricingCardsContainer:hover .PricingCardStats{
+    @apply block
+}
+
