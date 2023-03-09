@@ -1,7 +1,7 @@
 .PricingCardsContainer{
     @apply flex flex-col p-10 bg-[#F6F6F6] rounded-lg mt-8 relative
     lg:mt-0
-    hover:bg-[#292930] transition-all duration-300 ease-in-out
+    hover:bg-[#292930] transition-all duration-300 ease-in-out delay-150
 }
 .PricingCardHeading{
     @apply flex flex-row w-full items-center  justify-center h-auto
@@ -53,21 +53,21 @@
 
 /*On hover card*/
 .PricingCardsContainer:hover .PricingCardBtn{
-    @apply bg-[#F6F6F6] text-[#292930]
+    @apply bg-[#F6F6F6] text-[#292930]  delay-150
 }
 .PricingCardsContainer:hover .PricingCardTitle{
-    @apply text-white
+    @apply text-white delay-150
 }
 .PricingCardsContainer:hover .PricingCardPrice span{
-    @apply text-white
+    @apply text-white delay-150
 }
 .PricingCardsContainer:hover .PricingCardPrice{
-    @apply text-white
+    @apply text-white delay-150
 }
 .PricingCardsContainer:hover .PricingCardLi{
-    @apply text-white
+    @apply text-white delay-150
 }
 .PricingCardsContainer:hover .PricingCardStats{
-    @apply block
+    @apply block delay-150
 }
 

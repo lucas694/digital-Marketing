@@ -24,3 +24,7 @@
 .BtnIconArrowCircleCard{
     @apply w-5 h-5 ml-2 transition ease-in-out delay-150
 }
+
+.BtnFooterCard{
+    @apply bg-[#FFDC60] w-full border-[#424245] text-[#424245] border-2 mt-2 text-base rounded-lg
+}

@@ -1,0 +1,17 @@
+.AboutBannerContainer{
+    background-image: url("../../Assets/About/Banner Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @apply flex flex-row w-full h-auto items-center justify-center py-56
+
+}
+.AboutTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-4xl text-center
+    2xl:text-6xl
+}
+.AboutTitle span{
+    @apply text-[#5956E8]
+
+}

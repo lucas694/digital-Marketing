@@ -6,6 +6,7 @@ import ProccessHP from "./ProccessHP";
 import Testimonial from "./Testimonial";
 import ProjectAndCpunters from "./ProjectAndCpunters";
 import Pricing from "./Pricing";
+import Benifits from "./Benifits";
 
 const Homepage = () =>{
   return(
@@ -17,7 +18,7 @@ const Homepage = () =>{
       <Testimonial />
       <ProjectAndCpunters />
       <Pricing />
-
+      <Benifits />
     </div>
   )
 };export default Homepage;

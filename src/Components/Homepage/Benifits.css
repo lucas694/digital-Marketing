@@ -1,0 +1,63 @@
+.BenifitsContainer{
+    @apply flex items-center justify-center w-full py-10
+}
+.BenifitsContent{
+    @apply flex flex-col items-center justify-center w-full px-6
+    md:w-[90%] md:flex-row md:px-0
+    xl:md:w-[60%]
+}
+.BenifitsLeft{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[50%]
+}
+.BenifitsRight{
+    @apply flex flex-col w-full
+    md:w-[50%]
+}
+.BenifitsHeading{
+    @apply flex flex-col w-full h-auto items-center justify-center px-6
+    md:flex-row md:px-0
+}
+.BenifitsIcon{
+    @apply w-16 h-16 mr-0 mb-4
+    md:mb-0 md:mr-8
+}
+.BenifitsHeadingMain{
+    @apply flex flex-col w-full h-auto
+}
+.BenifitsTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930]  font-bold text-4xl mt-4 mb-2 text-center w-full
+    md:mt-2 md:text-start md:text-2xl md:w-[80%]
+    xl:text-3xl
+}
+.BenifitsImg{
+    @apply w-[80%] h-auto mt-8
+    2xl:w-[70%]
+    sm:w-[70%]
+}
+
+.BenifitsCardContainer{
+    @apply flex flex-row w-full h-auto items-center justify-center mt-8
+}
+.BenifitsCardImgControl{
+    @apply flex justify-center items-center w-[4rem] h-[4rem] border rounded-full border-[#D5D5D5] p-2
+    sm:w-[4.5rem] sm:h-[4.5rem]
+}
+.BenifitsCardImg{
+    @apply w-[60%] h-auto
+    md:w-[50%]
+}
+.BenifitsCardInfs{
+    @apply flex flex-col w-[80%] h-auto items-start justify-center ml-4
+    md:w-[80%]
+}
+.BenifitsCardTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930]  font-bold text-lg text-start mb-1
+}
+.BenifitsCardDesc{
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-medium text-xs text-start mt-1
+    md:text-sm
+}

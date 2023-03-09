@@ -1,0 +1,22 @@
+.AboutServicesContainer{
+    @apply flex flex-col w-full h-auto items-center justify-center py-20 bg-[#292930] px-6
+    md:px-0
+}
+.AboutServicesContent{
+    @apply flex flex-col h-auto items-center justify-center
+    w-[90%] md:w-[80%] lg:w-[70%]
+}
+.AboutServicesHeading{
+    @apply flex flex-col w-full items-center justify-center;
+}
+.AboutServicesIcon{
+    @apply w-16 h-16 mb-6;
+}
+.AboutServicesTitle{
+    font-family: 'Nunito';
+    @apply text-[#ffffff] font-bold text-3xl mt-4 text-center w-full
+    xl:md:text-4xl
+}
+.AboutServicesCardsContainer{
+    @apply flex flex-row w-[80%] items-center justify-around mt-8 flex-wrap
+}

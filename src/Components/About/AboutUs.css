@@ -1,0 +1,51 @@
+.AboutUsContainer{
+    @apply flex flex-col w-full h-auto items-center justify-center py-10
+}
+.AboutUsContent{
+    @apply flex flex-col items-center justify-center w-full px-6
+    md:w-[90%] md:flex-row md:px-0
+    xl:md:w-[60%]
+}
+.AboutUsLeft{
+    @apply flex flex-col w-full h-auto items-center justify-center
+    md:w-1/2
+}
+.AboutUsRight{
+    @apply flex flex-col w-full h-auto items-center justify-center mt-6
+    md:w-1/2 md:mt-0
+    lg:w-[60%]
+    2xl:w-[50%]
+}
+.AboutUsImg{
+    @apply w-[80%] h-auto mt-8
+    2xl:w-[70%]
+    sm:w-[70%]
+}
+.AboutHr{
+    @apply w-full h-0.5 bg-[#D5D5D5] mt-4 mb-4
+}
+.AboutUsPoints{
+    @apply flex flex-col w-full h-auto items-center justify-between
+    xl:flex-row
+}
+.AboutUsPoint{
+    @apply flex flex-row w-full h-auto items-center bg-[#292930] p-3 rounded-lg mt-2
+    xl:w-[50%] xl:mx-2
+}
+.AboutUsIcons{
+    @apply w-7 h-7
+}
+.AboutUsPointTitle{
+    font-family: 'Nunito';
+    @apply text-[#FFFFFF] font-bold text-base ml-2
+    sm:text-lg
+    md:text-sm
+}
+.AboutUsPointsDesc{
+    @apply flex flex-col w-full h-auto mt-6
+}
+.AboutUsPointsDesc p {
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-medium text-sm text-start
+    2xl:text-base
+}
