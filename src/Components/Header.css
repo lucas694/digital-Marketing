@@ -1,6 +1,6 @@
 .HeaderContainer{
     background-color: rgba(245, 245, 245, 0.6);
-    @apply flex flex-row items-center justify-center w-full fixed z-40 px-20 py-4
+    @apply flex flex-row items-center justify-center w-full fixed z-40 px-20 py-4 border-b border-[#E5E5E5]
 }
 .HeaderContent{
     @apply flex flex-row items-center justify-between w-full

@@ -18,5 +18,5 @@
     xl:md:text-4xl
 }
 .AboutServicesCardsContainer{
-    @apply flex flex-row w-[80%] items-center justify-around mt-8 flex-wrap
+    @apply flex flex-row w-[80%] items-center justify-around mt-8 flex-wrap mb-8
 }

@@ -40,7 +40,7 @@ const AboutServices = () => {
         )})
         }
       </div>
-      <div className={"ControlBtnSec"}>
+      <div className={"ControlBtnSec mt-6"}>
         <BtnBase text={"Get In Touch"}
                  type={"text-white"}
         />

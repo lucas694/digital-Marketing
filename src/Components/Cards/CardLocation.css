@@ -1,0 +1,32 @@
+.CardLocationContainer{
+    @apply flex flex-col items-center justify-center h-auto w-[17rem] py-7 px-6 mt-4
+    bg-[#F5F5F5] rounded-2xl  shadow-lg
+}
+.CardLocationImgControl{
+    @apply flex items-center w-full
+}
+.CardLocationImg{
+    @apply w-auto
+}
+.CardLocationContent{
+    @apply flex flex-col w-full
+}
+.CardLocationTitle{
+    font-family: 'Nunito';
+    @apply text-[#1A1A1A] font-bold text-xl mt-2
+}
+.CardLocationAddress{
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-medium text-sm mt-2
+}
+.CardLocationPhone{
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-medium text-xs mt-2 flex items-center
+}
+.CardLocationMail{
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-medium text-xs mt-2 flex items-center
+}
+.CardLocationIcons{
+    @apply w-4 h-4 mr-1 fill-[#292930]
+}

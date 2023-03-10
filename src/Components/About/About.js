@@ -2,6 +2,8 @@ import "./About.css";
 import AboutBanner from "./AboutBanner";
 import AboutUs from "./AboutUs";
 import AboutServices from "./AboutServices";
+import OurTeam from "./OurTeam";
+import Location from "./Location";
 
 const About = () => {
   return(
@@ -9,6 +11,8 @@ const About = () => {
       <AboutBanner />
       <AboutUs />
       <AboutServices />
+      <OurTeam />
+      <Location />
 
     </div>
   )
