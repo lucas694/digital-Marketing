@@ -1,0 +1,60 @@
+.AboutThisServicesContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+    md:py-20
+}
+.AboutThisServicesContent{
+    @apply flex flex-col-reverse items-center justify-center w-full px-6
+    md:w-[90%] md:flex-row md:px-0
+    xl:md:w-[60%]
+}
+.AboutThisServicesLeft{
+    @apply flex flex-col w-full h-auto items-center justify-center mt-6
+    md:w-1/2 md:mt-0
+
+}
+.AboutThisServicesRight{
+    @apply flex flex-col w-full h-auto items-center justify-center
+    md:w-1/2
+    lg:w-[60%]
+    2xl:w-[50%]
+}
+.AboutThisImg{
+    @apply w-[80%] h-auto mt-8
+    2xl:w-[70%]
+    sm:w-[70%]
+}
+.AboutThisServicesHeading{
+    @apply flex flex-col w-full h-auto items-center justify-center
+    md:flex-row
+}
+.AboutThisServicesIcon{
+    @apply w-16 h-16 mb-2
+    md:mb-0 md:mr-8
+}
+.AboutThisServicesMain{
+    @apply flex flex-col w-full h-auto
+}
+.AboutThisServicesTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930]  font-bold text-4xl mt-4 mb-2 text-center w-full
+    md:mt-2 md:text-start md:text-2xl
+    xl:text-3xl
+}
+.AboutThisDesc{
+    @apply text-[#555555] font-medium text-sm text-start
+    2xl:text-base
+}
+.AboutThisServicesTopics{
+    @apply flex flex-col w-full h-auto items-center mt-2
+}
+.AboutThisTopic{
+    @apply flex flex-row w-full h-auto items-center mt-3
+}
+.AboutThisTopicIcon{
+    @apply w-7 h-7 mr-2 fill-[#292930]
+    md:w-6 md:h-6
+}
+.AboutThisTopicTitle{
+    font-family: 'Nunito';
+    @apply text-[#555555] font-semibold text-lg
+}

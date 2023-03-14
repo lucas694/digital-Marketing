@@ -1,0 +1,19 @@
+.CardServicesPageContainer{
+    @apply flex flex-col items-center justify-center h-auto w-[17rem] py-7 px-8 mt-4
+    bg-gradient-to-t from-[#2A2A31] to-[#36363E] rounded-2xl border border-[#424245] shadow-lg
+}
+.CardServicesPageImgControl{
+    @apply flex items-center justify-center h-28 w-28
+    bg-[#292930] rounded-full
+}
+.CardServicesPageImg{
+    @apply h-16 w-16
+}
+.CardServicesPageTitle{
+    font-family: 'Nunito';
+    @apply text-white  font-bold text-xl mt-4 text-center
+}
+.CardServicesPageDesc{
+    font-family: 'Noto Sans';
+    @apply text-[#D0D0D0] font-medium text-sm mt-3 w-full text-center
+}

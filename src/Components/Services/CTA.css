@@ -1,0 +1,36 @@
+.CTAContainer{
+    @apply hidden flex-row justify-center items-center w-full py-5
+    md:flex
+}
+.CTAContent{
+    background-image: url("../../Assets/Services/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    @apply flex flex-row justify-center items-center w-[90%] py-5 px-5
+    lg:w-[70%]
+    xl:w-[60%]
+}
+.CtaLeft{
+    @apply flex flex-col justify-center items-center w-1/2
+}
+.CtaRight{
+    @apply flex flex-col justify-center items-center w-1/2
+}
+.Pattern{
+    @apply w-[70%]
+    xl:w-[50%]
+    2xl:w-[60%]
+}
+.CtaTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930]  font-bold text-4xl mt-4 mb-2 text-start w-full
+    2xl:text-[2.60rem]
+}
+.CtaTitle span{
+    @apply text-[#5956E8]
+}
+.ControlBtnSecCTA{
+    @apply flex flex-col w-full h-auto items-center mt-4
+    md:w-full md:space-x-2 md:flex-row
+}

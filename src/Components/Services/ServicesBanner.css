@@ -1,0 +1,31 @@
+.ServicesBannerContainer{
+    background-image: url("../../Assets/Services/BackgroundBanner.png");
+    @apply flex flex-row w-full justify-center items-center pt-24 pb-14 px-6
+    bg-bottom bg-no-repeat bg-cover
+    md:px-0 md:bg-right md:bg-contain
+    2xl:bg-cover
+}
+.ServicesBannerContent{
+    @apply flex flex-col justify-center items-center w-full
+    md:flex-row
+}
+.ServicesBannerLeft{
+    @apply flex flex-col justify-center items-center w-full
+    md:w-[40%] md:items-stretch
+}
+.ServicesBannerRight{
+    @apply flex flex-col justify-center items-center w-full mt-10
+    md:w-[50%] md:mt-0
+    2xl:w-[50%]
+}
+.ServicesBannerTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-5xl w-[90%] text-center
+    2xl:text-7xl md:text-start
+}
+.ServicesBannerDesc{
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-semibold text-sm mt-6 w-full text-center
+    lg:text-base lg:w-[85%]
+    md:text-start
+}

@@ -1,0 +1,24 @@
+.OurServicesContainer{
+    @apply flex flex-col w-full h-auto items-center justify-center py-10 bg-[#292930] px-6
+    md:px-0 md:py-20
+}
+.OurServicesContent{
+    @apply flex flex-col h-auto items-center justify-center
+    w-full md:w-[80%] lg:w-[70%]
+}
+.OurServicesHeading{
+    @apply flex flex-col w-full items-center justify-center;
+}
+.OurServicesIcon{
+    @apply w-16 h-16 mb-6;
+}
+.OurServicesTitle{
+    font-family: 'Nunito';
+    @apply text-[#ffffff] font-bold text-3xl mt-4 text-center w-full
+    xl:md:text-4xl xl:w-[50%]
+}
+.OurServicesCardsContent{
+    @apply flex flex-row w-full h-auto items-center justify-around mt-8
+    flex-wrap
+    2xl:w-[75%] 2xl:justify-evenly
+}
