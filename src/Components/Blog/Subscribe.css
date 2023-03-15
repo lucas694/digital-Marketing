@@ -1,0 +1,31 @@
+.SubscribeContainer{
+    background-image: url("../../Assets/Blog/SubscribeBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    @apply flex flex-row items-center w-full justify-center bg-[#292930] py-10
+    bg-cover
+    md:bg-contain md:py-20
+}
+.SubscribeContent{
+    @apply flex flex-col justify-center items-center w-full py-0 px-4
+    md:w-[90%] md:px-5
+    lg:w-[70%]
+    xl:w-[60%] xl:py-16
+}
+.SubscribeForm{
+    @apply flex flex-col justify-center items-center w-full h-auto mt-6 space-y-2
+    md:flex-row mt-10 md:space-y-0
+}
+.InputSubscribe{
+    @apply w-full bg-[#5B5B61] p-4 rounded-lg text-[#FFFFFF] font-medium text-sm focus:outline-none
+    md:w-[40%] md:mr-5
+}
+
+.SubscribeTitle{
+    font-family: 'Nunito';
+    @apply text-[#FFFFFF] font-bold text-4xl
+    md:text-5xl
+}
+.SubscribeTitle span{
+    @apply text-[#FFDC60]
+}

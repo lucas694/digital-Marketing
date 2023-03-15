@@ -1,18 +1,16 @@
-.AboutBannerContainer{
-    background-image: url("../../Assets/About/Banner Image.png");
+.BlogBannerContainer{
+    background-image: url("../../Assets/Blog/BannerImage.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     @apply flex flex-row w-full h-auto items-center justify-center py-28 mt-10
-     lg:py-40 xl:py-48
-
+    lg:py-40 xl:py-48
 }
-.AboutTitle{
+.BlogTitle{
     font-family: 'Nunito';
     @apply text-[#292930] font-extrabold text-4xl text-center
     xl:text-6xl
 }
-.AboutTitle span{
+.BlogTitle span{
     @apply text-[#5956E8]
-
 }

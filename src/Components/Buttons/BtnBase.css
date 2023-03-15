@@ -28,3 +28,8 @@
 .BtnFooterCard{
     @apply bg-[#FFDC60] w-full border-[#424245] text-[#424245] border-2 mt-2 text-base rounded-lg
 }
+
+.BtnSubscribe{
+    @apply bg-[#FFDC60] w-full border-[#424245] text-[#424245] border-2 text-base rounded-lg
+    md:w-auto
+}

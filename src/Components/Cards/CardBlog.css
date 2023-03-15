@@ -1,0 +1,37 @@
+.CardBlogContainer{
+    @apply flex flex-col items-center justify-center transition-all duration-500 ease-in-out
+    mt-4 bg-[#F5F5F5] rounded-2xl shadow-lg p-8 w-[30rem] border border-[#DCDCDC]
+    md:mr-4
+    lg:w-[48%]
+    xl:w-[45%]
+}
+.CardBlogContainer:hover{
+    background-image: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    @apply transition-all duration-500 ease-in-out border-[#f5f5f5]
+}
+.CardBlogContent{
+    @apply flex flex-col items-center justify-center w-full
+}
+.CardBlogImg{
+    @apply w-auto rounded-xl
+}
+
+.CardBlogInfs{
+    @apply flex flex-col justify-center w-full mt-6
+}
+.CardBlogTag{
+    @apply flex flex-row w-full justify-between items-center
+}
+.CardBlogTag span{
+    font-family: 'Nunito';
+    @apply rounded-full border-[#292930] border px-4 py-2
+    font-semibold text-sm
+}
+.CardBlogTag h3{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-base uppercase text-sm tracking-wide
+}
+.CardBlogTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-xl  mt-4
+}

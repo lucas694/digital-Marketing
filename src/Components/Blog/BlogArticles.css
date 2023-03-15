@@ -1,0 +1,91 @@
+.BlogArticlesContainer{
+    @apply flex w-full items-center justify-center py-10
+    md:py-20
+}
+.BlogArticlesContent{
+    @apply flex flex-col items-center justify-center w-full px-6
+    md:w-[80%] md:px-0
+}
+
+/*Heading*/
+.BlogArticlesHeading{
+    @apply flex flex-col w-full h-auto items-center
+    md:flex-row
+}
+.BlogArticlesIcon{
+    @apply w-16 h-16 mr-8 mb-4
+    md:mb-0
+}
+.BlogArticlesHeadingMain{
+    @apply flex flex-col w-full h-auto items-center
+}
+.BlogArticlesHeadingDiv{
+    @apply flex flex-col w-full h-auto justify-between
+    md:flex-row md:items-center
+}
+.HeadingMainControl{
+    @apply flex flex-col w-full justify-between
+    md:w-[50%] md:flex-row
+}
+.InputBlogArt{
+    @apply w-full bg-[#FFFFFF] rounded-lg text-[#5B5B61] font-medium text-sm mb-3 mt-2 p-4 border-2 border-[#292930]
+    focus:outline-none focus:ring focus:ring-[#292930] focus:ring-opacity-80 focus:border-transparent
+    md:mr-4 md:mb-0 md:mt-0
+}
+
+.BlogArticlesHeadingTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930]  font-bold text-3xl mt-4 text-center w-full
+    md:mt-2 md:w-[90%] md:text-start md:text-2xl
+    lg:w-[90%] lg:text-3xl
+    xl:md:text-4xl
+}
+/*Heading*/
+
+/*Blog Articles*/
+
+.BlogArticlesMain{
+    @apply flex flex-col w-full h-auto items-center bg-[#FFF3CA] mt-10 p-6 rounded-lg
+    lg:flex-row lg:p-10
+}
+.BlogArticlesLeft{
+    @apply flex flex-col w-full h-auto justify-center
+    lg:w-[50%]
+}
+.BlogArticlesRight{
+    @apply flex flex-col w-full h-auto items-center mt-6
+    lg:w-[50%] lg:mt-0
+}
+.BlogArticlesImg{
+    @apply w-[100%] h-auto rounded-xl
+    lg:w-[90%]
+    xl:w-[80%]
+    2xl:w-[70%]
+}
+
+.BlogArticlesTag{
+    @apply flex flex-row w-full h-auto items-center justify-between
+}
+.BlogArticlesTag span {
+    font-family: 'Nunito';
+    @apply rounded-full border-[#292930] border px-4 py-2
+    font-semibold text-sm
+    md:text-base md:px-5
+}
+.BlogArticlesTag h1{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-semibold text-base uppercase
+    md:text-lg
+}
+.BlogArticleTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-xl mt-4
+    md:text-2xl
+}
+.BlogArticleDesc{
+    font-family: 'Noto Sans';
+    @apply text-[#555555] font-medium text-xs mt-2 w-full
+    md:text-lg
+}
+
+/*Blog Articles*/

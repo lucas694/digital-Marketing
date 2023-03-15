@@ -1,0 +1,136 @@
+.BlogPostContainer{
+    @apply flex flex-col w-full items-center justify-center
+}
+.BlogPostBanner{
+    background-image: url("../../Assets/Blog/BannerImage.png");
+    @apply w-full h-[20rem] bg-cover bg-center absolute top-0 z-0
+    md:h-[30rem]
+}
+.BlogPostContent{
+    @apply w-[85%] flex flex-col items-center justify-center py-10 mt-20 z-10
+    md:w-[80%] md:mt-40
+    xl:w-[60%]
+}
+
+.BlogCardPost{
+    @apply w-full flex flex-col justify-center
+}
+.BlogCardPostTag{
+    @apply flex flex-row w-full items-center space-x-6
+    md:space-x-20
+}
+.BlogCardPostTag span{
+    font-family: 'Nunito';
+    @apply rounded-full border-[#292930] border px-4 py-2
+    font-semibold text-xs
+    md:text-sm
+}
+.BlogCardPostTag h3{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-base uppercase text-xs tracking-wide
+    md:text-sm
+}
+.BlogCardPostTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-xl mt-2 w-[100%]
+    md:text-4xl md:mt-4
+    xl:w-[80%]
+    2xl:w-[70%]
+}
+
+.BlogCardPostImg{
+    @apply w-full  object-cover mt-4 rounded-3xl
+    md:mt-8
+}
+.BlogCardPostUser{
+    @apply flex flex-row items-center justify-between w-full mt-4
+    md:mt-8
+}
+.BlogCardPostLeft{
+    @apply flex flex-row items-center justify-center
+
+ }
+.BlogCardPostUserImg{
+    @apply w-11 h-11 rounded-full mr-3
+    md:w-14 md:h-14
+}
+.BlogCardPostUserName{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-sm
+    md:text-base
+}
+.BlogCardPostUserJob{
+    font-family: 'Nunito';
+    @apply text-[#555555] font-semibold text-xs
+    md:text-sm
+}
+.BlogCardPostLine{
+    @apply w-full h-[0.165rem] bg-[#CCCCCC] mb-4 font-bold rounded-full mt-4 mb-4
+}
+/*      */
+
+.BlogCardPostRight{
+    @apply flex flex-row items-center
+}
+.BlogCardPostUserIcon{
+    @apply w-4 h-4 ml-2 fill-[#292930] cursor-pointer
+    md:w-5 md:h-5 md:ml-4
+}
+.BlogPostContentText{
+    @apply flex flex-col w-[90%] mt-4 items-center justify-center
+    md:w-[80%] md:mt-8
+}
+.BlogPostTextSec{
+    @apply flex flex-col w-full mt-4
+    md:mt-8
+}
+
+.BlogPostTitle{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-xl
+    md:text-3xl
+    xl:text-4xl
+}
+.BlogPostDesc{
+    font-family: 'Nunito';
+    @apply text-[#555555] font-normal text-sm mt-2
+    md:text-lg md:mt-4
+}
+.BlogPostList{
+    @apply flex flex-col w-full mt-4
+    md:mt-8
+}
+.BlogPostList li{
+    font-family: 'Nunito';
+    @apply flex flex-row items-center justify-start mt-2
+    text-[#555555] font-normal text-sm
+    md:text-lg md:mt-4
+}
+.BlogPostList span{
+    @apply text-[#292930] font-bold mr-2
+}
+
+.BlogPostQuotes{
+    @apply flex flex-col w-full mt-4 items-center justify-center py-10
+    md:mt-8
+}
+.QuotesText{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-semibold text-base text-center italic mt-2
+    md:text-lg
+}
+.QuotesText span{
+    @apply font-bold text-4xl italic
+}
+
+.BlogSocial{
+    @apply flex flex-row items-center justify-between w-full mt-20
+}
+.BlogSocial h1{
+    font-family: 'Nunito';
+    @apply text-[#292930] font-bold text-base
+    md:text-lg
+}
+.BlogSocialRight{
+    @apply flex flex-row items-center justify-center
+}
