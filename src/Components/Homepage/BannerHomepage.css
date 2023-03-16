@@ -2,7 +2,9 @@
     background-image: url("../../Assets/Homepage/BgBannerHp.png");
     @apply flex flex-row w-full h-auto justify-center items-center mt-12
     bg-no-repeat bg-left bg-cover
-    md:bg-right md:mt-0
+    md:bg-right md:mt-14
+    xl:mt-10
+    2xl:mt-0
 }
 .BannerHomepageContent{
     @apply flex flex-col h-auto justify-center items-center py-10 w-full px-6

@@ -18,6 +18,11 @@
     md:w-[50%] md:mt-0
     2xl:w-[50%]
 }
+.ServicesBannerImg{
+    @apply w-[80%] h-auto mt-8
+    2xl:w-[60%]
+    sm:w-[70%]
+}
 .ServicesBannerTitle{
     font-family: 'Nunito';
     @apply text-[#292930] font-bold text-5xl w-[90%] text-center
