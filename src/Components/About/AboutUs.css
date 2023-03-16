@@ -2,7 +2,7 @@
     @apply flex flex-col w-full h-auto items-center justify-center py-10
 }
 .AboutUsContent{
-    @apply flex flex-col items-center justify-center w-full px-6
+    @apply flex flex-col-reverse items-center justify-center w-full px-6
     md:w-[90%] md:flex-row md:px-0
     xl:md:w-[60%]
 }
@@ -11,8 +11,8 @@
     md:w-1/2
 }
 .AboutUsRight{
-    @apply flex flex-col w-full h-auto items-center justify-center mt-6
-    md:w-1/2 md:mt-0
+    @apply flex flex-col w-full h-auto items-center justify-center
+    md:w-1/2
     lg:w-[60%]
     2xl:w-[50%]
 }

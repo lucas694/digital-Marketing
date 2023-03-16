@@ -1,0 +1,79 @@
+.HeaderMobileContainer{
+    @apply w-full fixed top-0 z-50  shadow-xl
+    md:hidden rounded-b-3xl
+}
+.MenuIconMobile{
+    @apply w-7 h-7 cursor-pointer fill-[#F5F5F5]
+}
+.HeaderMobileLogo{
+    @apply w-[8em] h-auto object-contain
+}
+
+.HeaderMobileContent{
+    @apply flex flex-row justify-between items-center w-full p-5 bg-[#292930]
+}
+
+.ContentMobileMenu{
+    @apply flex flex-col w-full  bg-[#292930] shadow-xl p-5 rounded-b-3xl
+
+}
+
+.UlMobileHeader{
+    @apply flex flex-row w-full justify-around items-center
+}
+.HeaderMobileLinks{
+    @apply flex flex-row items-center justify-around w-full
+}
+
+.HeaderMobileLink{
+    display: inline-block;
+    position: relative;
+
+    transition: border-color 0.5s ease-out; /* animação da borda de transição de cor */;
+    @apply px-4 py-2 text-lg text-[#F5F5F5] font-semibold
+    hover:border-[#FFDC60]
+
+}
+
+.HeaderMobileLink::before  {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 1rem;
+    background: linear-gradient(to right, #5956E8, #FFDC60);
+    transform: scaleX(0);
+    transition: transform 0.5s ease-out;
+}
+.HeaderMobileLink:hover::before{
+    transform: scaleX(0.7);
+    background: linear-gradient(to right, #5956E8, #FFDC60);
+}
+.HeaderMobileLink.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 1rem;
+    height: 4px;
+    background: linear-gradient(to right, #5956E8, #FFDC60);
+    transform: scaleX(0.7);
+}
+
+
+/*botao*/
+.BtnClose{
+    @apply cursor-pointer bg-white rounded-full px-1.5 py-1.5
+    transition-all duration-300 ease-in-out
+}
+.BtnClose:hover .CloseIconMobile{
+    @apply fill-red-500 rotate-180 scale-125
+
+}
+.CloseIconMobile{
+    @apply  fill-red-400 cursor-pointer  w-6 h-6
+    transition-all duration-300 ease-in-out
+}

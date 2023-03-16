@@ -7,12 +7,14 @@ import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
 import Blog from "./Components/Blog/Blog";
 import BlogPost from "./Components/Blog/BlogPost";
+import HeaderMobile from "./Components/HeaderMobile";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
+        <HeaderMobile />
         <Routes>
           <Route path={"/"} element={<Homepage />} />
           <Route path={"/About"} element={<About />} />

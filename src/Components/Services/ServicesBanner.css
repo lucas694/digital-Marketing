@@ -1,8 +1,8 @@
 .ServicesBannerContainer{
     background-image: url("../../Assets/Services/BackgroundBanner.png");
-    @apply flex flex-row w-full justify-center items-center pt-24 pb-14 px-6
+    @apply flex flex-row w-full justify-center items-center pt-24 pb-14 px-6 mt-8
     bg-bottom bg-no-repeat bg-cover
-    md:px-0 md:bg-right md:bg-contain
+    md:px-0 md:bg-right md:bg-contain md:mt-0
     2xl:bg-cover
 }
 .ServicesBannerContent{
