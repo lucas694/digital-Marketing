@@ -7,8 +7,14 @@ import Testimonial from "./Testimonial";
 import ProjectAndCpunters from "./ProjectAndCpunters";
 import Pricing from "./Pricing";
 import Benifits from "./Benifits";
+import {useEffect} from "react";
 
 const Homepage = () =>{
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <div className={"HomepageContainer"}>
       <BannerHomepage />

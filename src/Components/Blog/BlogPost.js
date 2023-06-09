@@ -3,8 +3,12 @@ import BLogPostImg from "../../Assets/Blog/BlogPostImg.png";
 import BLogPostUser from "../../Assets/Blog/PostBlogUser.png";
 import {BsInstagram, BsFacebook, BsTwitter,BsLinkedin} from "react-icons/bs";
 import Quotes from "../../Assets/Blog/QuotesImg.png"
+import {useEffect} from "react";
 
 const BlogPost = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return(
     <div className="BlogPostContainer">
       <div className={"BlogPostBanner"}>
